@@ -1,0 +1,31 @@
+{
+  "name": "transport-backend",
+  "version": "1.0.0",
+  "description": "transport",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc mocha"
+  },
+  "author": "vicky",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "chai": "^4.2.0",
+    "cors": "^2.8.5",
+    "exceljs": "^4.2.0",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "json2xls": "^0.1.2",
+    "jsonwebtoken": "^8.5.1",
+    "mocha": "^8.2.1",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.32",
+    "mongoose": "^5.11.6",
+    "nodemon": "^2.0.6",
+    "nyc": "^15.1.0",
+    "shortid": "^2.2.16",
+    "voucher-code-generator": "^1.1.1"
+  }
+}
